@@ -7,7 +7,7 @@ Script rewritten in AutoHotKey 2.0, using XInput instead of using GetKeyState.
 "Joy key hotkey only works on ahk window"
 https://www.autohotkey.com/boards/viewtopic.php?f=82&p=510578
 
-This is a known limitation. In Windows 10 and 11 with newer Xbox controllers(those released after the Xbox 360 controller) built in hotkeys like Joy1n and GetKeyState reading of controller states only works when an AutoHotkey window has focus. To get them working when other windows are active you have to use XInput.
+This is a known limitation. In Windows 10 and 11 with newer Xbox controllers (those released after the Xbox 360 controller) built in hotkeys like Joy1 and GetKeyState reading of controller states only works when an AutoHotkey window has focus. To get them working when other windows are active you have to use XInput.
 Custom key combos commented out and abandoned since XInput works differently. Two buttons pressed at the same time sum to a different value. Implementation would be done differently.
 
 ### TFT CONTROLLER
