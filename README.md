@@ -1,5 +1,17 @@
 # TFT CONTROLLER
 
+### UPDATED TO AHK 2.0 & XInput
+
+Script rewritten in AutoHotKey 2.0, using XInput instead of using GetKeyState.
+
+"Joy key hotkey only works on ahk window"
+https://www.autohotkey.com/boards/viewtopic.php?f=82&p=510578
+
+This is a known limitation. In Windows 10 and 11 with newer Xbox controllers(those released after the Xbox 360 controller) built in hotkeys like Joy1n and GetKeyState reading of controller states only works when an AutoHotkey window has focus. To get them working when other windows are active you have to use XInput.
+Custom key combos commented out and abandoned since XInput works differently. Two buttons pressed at the same time sum to a different value. Implementation would be done differently.
+
+### TFT CONTROLLER
+
 I know that my script is not very useful especially since TFT mobile exists. However, I had an urge to play it on my TV with my controller. <br>
 The scripts found on the internet did not work or worked badly. So I created this mini project to allow to me and for everyone who want it to have a script that works and configure as little as possible. <br>
 
@@ -7,7 +19,7 @@ A debugging system is in place to allow you to play even if your screen is atypi
 
 You can change the configuration as you wish only if it's possible. (See [Planned Hotkeys](/README.md#Planned-Hotkeys))
 
-## How it will work
+### How it will work
 You will be able to play (finally) with the controller your favorite game deported from your PC / Phone. The directional arrows allow you to move on the ground. All TFT shortcuts have been added and can be modified.
 You can use the left joystick to move the mouse in a circle to get your champion or recover items.
 
